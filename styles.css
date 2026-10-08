@@ -44,3 +44,25 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-f
 .close{float:right;border:0;background:none;font-size:32px;cursor:pointer;color:var(--muted);line-height:1;margin:0 0 8px 10px}.item-dialog dl{display:grid;grid-template-columns:120px 1fr;gap:7px 12px;margin:24px 0}.item-dialog dt{color:var(--muted)}.item-dialog dd{margin:0}
 .hidden{display:none!important}
 @media(max-width:800px){nav{display:none}.hero-grid,.church-grid,.catalog-grid,.note-grid,.method,.dialog-grid{grid-template-columns:1fr}.hero{padding-top:44px}.section{padding:52px 0}.section-head{align-items:start;flex-direction:column}.hero-grid{gap:32px}.footer-inner{flex-direction:column}.stack-mobile{align-items:flex-start}}
+
+/* 2. bővítés */
+.church-grid{grid-template-columns:repeat(3,1fr)}
+.drawing-placeholder{width:100%;aspect-ratio:4/3;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;background:linear-gradient(135deg,#eee7db,#f9f6ef);border-bottom:1px solid var(--line);color:var(--muted);font-family:Arial,sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:12px}
+.drawing-placeholder small{font-size:10px;letter-spacing:.08em;color:#8a8175}
+.dialog-placeholder{border:1px solid var(--line);min-height:360px;aspect-ratio:auto;border-bottom:1px solid var(--line)}
+@media(max-width:950px){.church-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:800px){.church-grid{grid-template-columns:1fr}}
+
+/* Mintatemplom-oldalak */
+.text-link{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.project-note{max-width:860px;background:var(--white);border:1px solid var(--line);padding:30px;font-size:18px}
+.location-hero{padding:58px 0;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#f7f3ea,#efe8dc)}
+.location-hero-grid{display:grid;grid-template-columns:1fr .78fr;gap:54px;align-items:center}.location-subtitle{font-size:30px;margin:-12px 0 18px;color:var(--accent)}
+.location-art{margin:0;background:var(--white);border:1px solid var(--line);padding:12px;box-shadow:0 18px 46px rgba(50,40,28,.1)}.location-art img{width:100%;aspect-ratio:1/1.05;object-fit:cover}.location-art figcaption,.feature-art figcaption{font:12px Arial,sans-serif;color:var(--muted);padding:8px 2px 0}
+.facts-row{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:28px}.facts-row div{background:rgba(255,253,248,.82);border:1px solid var(--line);padding:14px}.facts-row strong,.facts-row span{display:block}.facts-row strong{font:700 11px Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em;color:var(--accent)}.facts-row span{margin-top:4px}
+.prose-grid{display:grid;grid-template-columns:.36fr 1fr;gap:60px}.side-title{position:sticky;top:105px;align-self:start}.prose{max-width:820px;font-size:18px}.prose p:first-child{margin-top:0}
+.feature-grid{display:grid;grid-template-columns:.78fr 1.22fr;gap:46px;align-items:start}.feature-art{margin:0;background:var(--white);border:1px solid var(--line);padding:12px}.feature-art img{width:100%;aspect-ratio:1/1.05;object-fit:cover}
+.certainty-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}.certainty{padding:18px;border:1px solid var(--line)}.certainty h3{font-size:18px}.certainty ul{margin:0;padding-left:18px}.sure{background:#eef2ea}.likely{background:#f5ead8}.uncertain{background:#f6e2dc}
+.visit-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.visit-list div{background:var(--white);border:1px solid var(--line);padding:18px}.project-quote{margin:28px 0 0;padding:24px 28px;border-left:4px solid var(--accent);background:var(--white);font-size:22px}
+.sources-box{display:grid;gap:10px}.sources-box a{display:block;background:var(--white);border:1px solid var(--line);padding:14px;color:var(--ink)}.project-strip{background:#2f2923;color:var(--white)}.project-strip .wrap{display:flex;justify-content:space-between;gap:24px;align-items:center}.project-strip p{margin:0;max-width:820px}.project-strip .button{border-color:var(--white);color:var(--white)}
+@media(max-width:800px){.location-hero-grid,.prose-grid,.feature-grid,.certainty-grid,.facts-row,.visit-list{grid-template-columns:1fr}.side-title{position:static}.project-strip .wrap{display:block}.project-strip .button{margin-top:18px}}

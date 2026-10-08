@@ -1,11 +1,6 @@
-KŐBE FARAGOTT TÖRTÉNETEK — ROMÁN KORI RAJZOS KATALÓGUS
+KŐBE FARAGOTT TÖRTÉNETEK – 2. BŐVÍTÉS (munkaváltozat)
 
-Első működő prototípus.
+Tartalom: 9 helyszín, 10 katalógustétel.
+A nyilvános oldalon csak saját/AI-rajzokat használunk; az új tételeknél a „Rajz készül” helyőrző marad mindaddig, amíg a rajz elkészül.
 
-Fájlok:
-- index.html — főoldal
-- styles.css — megjelenés
-- app.js — szűrés és adatlapok
-- assets/images/ — a katalógusrajzok
-
-GitHub Pages feltöltéshez a teljes mappa tartalmát egy repository gyökerébe kell tenni.
+Feltöltés GitHub Pages-re: index.html, styles.css, app.js és az images mappa kerüljön a repository gyökerébe.

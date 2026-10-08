@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Rajzos katalógus román kori templomokról, kolostorokról és faragványokról." />
+  <title>Kőbe faragott történetek</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Kezdőlap">
+        <span class="brand-mark">✦</span>
+        <span><strong>Kőbe faragott történetek</strong><small>Román kori rajzos katalógus</small></span>
+      </a>
+      <nav aria-label="Fő navigáció">
+        <a href="#templomok">Templomok</a>
+        <a href="#katalogus">Katalógus</a>
+        <a href="#jegyzetek">Jegyzetek</a>
+        <a href="#modszer">Módszer</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Épülő gyűjtemény</p>
+          <h1>Román kori faragványok — saját rajzokon</h1>
+          <p class="lead">Templomokhoz és kolostorokhoz rendezett, bővíthető katalógus. Minden tétel saját azonosítót, leírást és ikonográfiai jegyzetet kap.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#katalogus">Katalógus megnyitása</a>
+            <a class="button ghost" href="#templomok">Templomok szerint</a>
+          </div>
+        </div>
+        <figure class="hero-art">
+          <img src="assets/images/tudela-001.png" alt="Szent Márton köpenymegosztását ábrázoló román kori oszlopfő rajza" />
+          <figcaption>TUDELA-001 · Szent Márton és a koldus</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="templomok">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="eyebrow">Helyszínek</p><h2>Templomok és kolostorok</h2></div>
+          <p class="section-copy">Egy helyszínhez tetszőleges számú faragvány rendelhető. Az azonosító első része mindig a helyszínt jelöli.</p>
+        </div>
+        <div class="church-grid">
+          <article class="church-card">
+            <div class="church-meta">Katalónia · Spanyolország</div>
+            <h3>Santa Maria de l’Estany</h3>
+            <p>Román kori kolostor és kerengő. Jelenlegi katalógustételek: <strong>1</strong>.</p>
+            <button class="text-button" data-filter="ESTANY">Csak az Estany-tételek →</button>
+          </article>
+          <article class="church-card">
+            <div class="church-meta">Navarra · Spanyolország</div>
+            <h3>Tudelai székesegyház</h3>
+            <p>Késő román kori kerengő, kb. 1180–1204. Jelenlegi katalógustételek: <strong>1</strong>.</p>
+            <button class="text-button" data-filter="TUDELA">Csak a tudelai tételek →</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="katalogus">
+      <div class="wrap">
+        <div class="section-head stack-mobile">
+          <div><p class="eyebrow">Gyűjtemény</p><h2>Katalógus</h2></div>
+          <div class="filters" role="group" aria-label="Katalógusszűrők">
+            <button class="chip active" data-filter="ALL">Mind</button>
+            <button class="chip" data-filter="ESTANY">Santa Maria de l’Estany</button>
+            <button class="chip" data-filter="TUDELA">Tudela</button>
+          </div>
+        </div>
+
+        <div class="catalog-grid" id="catalogGrid">
+          <article class="catalog-card" data-church="ESTANY">
+            <button class="image-button" data-dialog="dialog-estany" aria-label="ESTANY-001 adatlap megnyitása">
+              <img src="assets/images/estany-001.png" alt="Vadászjelenetes román kori oszlopfő rajza" />
+            </button>
+            <div class="card-body">
+              <div class="idline">ESTANY-001</div>
+              <h3>Vadászjelenet solymásszal</h3>
+              <p>Solymász, kutyák és nyúl egy román kori oszlopfőn.</p>
+              <button class="text-button" data-dialog="dialog-estany">Adatlap →</button>
+            </div>
+          </article>
+
+          <article class="catalog-card" data-church="TUDELA">
+            <button class="image-button" data-dialog="dialog-tudela" aria-label="TUDELA-001 adatlap megnyitása">
+              <img src="assets/images/tudela-001.png" alt="Szent Márton és a koldus román kori oszlopfő rajza" />
+            </button>
+            <div class="card-body">
+              <div class="idline">TUDELA-001</div>
+              <h3>Szent Márton megosztja köpenyét</h3>
+              <p>Az amiens-i legenda jelenete a tudelai kerengőből.</p>
+              <button class="text-button" data-dialog="dialog-tudela">Adatlap →</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="jegyzetek">
+      <div class="wrap">
+        <div class="section-head"><div><p class="eyebrow">Olvasnivaló</p><h2>Jegyzetek</h2></div></div>
+        <div class="note-grid">
+          <article class="note-card">
+            <div class="note-kicker">Ikonográfia</div>
+            <h3>Mit jelenthet egy vadászjelenet?</h3>
+            <p>A román kori faragványokon a vadászat egyszerre lehet világi életkép, erkölcsi példázat és szimbolikus jelenet. Egyetlen értelmezést ezért csak akkor érdemes biztosnak tekinteni, ha azt a helyi program vagy korabeli forrás is támogatja.</p>
+          </article>
+          <article class="note-card">
+            <div class="note-kicker">Szentek</div>
+            <h3>Szent Márton fél köpenye</h3>
+            <p>A köpenymegosztás az irgalmasság egyik legismertebb középkori képi típusa. A jelenet ereje abból fakad, hogy Márton még katonaként cselekszik, mielőtt szerzetes és püspök lenne.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="modszer">
+      <div class="wrap method">
+        <div><p class="eyebrow">Katalóguselv</p><h2>Hogyan épül?</h2></div>
+        <p>Minden új tételt egy helyszínhez rendelünk, egységes rajzi stílusban jelenítünk meg, és különválasztjuk a biztos leírást a lehetséges ikonográfiai értelmezéstől. A katalógus később témák, szentek, állatok és motívumok szerint is kereshető lesz.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner"><span>Kőbe faragott történetek</span><span>Épülő magángyűjtemény · 2026</span></div>
+  </footer>
+
+  <dialog id="dialog-estany" class="item-dialog">
+    <button class="close" aria-label="Bezárás">×</button>
+    <div class="dialog-grid">
+      <img src="assets/images/estany-001.png" alt="ESTANY-001 rajz" />
+      <div>
+        <div class="idline">ESTANY-001</div>
+        <h2>Vadászjelenet solymásszal</h2>
+        <dl>
+          <dt>Helyszín</dt><dd>Santa Maria de l’Estany, Katalónia</dd>
+          <dt>Objektum</dt><dd>Román kori kerengő, oszlopfő</dd>
+          <dt>Motívum</dt><dd>Solymász, kutyák, nyúl</dd>
+        </dl>
+        <p><strong>Leírás.</strong> A faragvány egy vadászjelenetet mutat: központi emberalak, ragadozó madár, vadászkutyák és nyúl alkotják a kompozíciót.</p>
+        <p><strong>Értelmezési megjegyzés.</strong> A jelenetnek lehet allegorikus, erkölcsi jelentése, de ezt nem kezeljük automatikusan bizonyított megfejtésként.</p>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="dialog-tudela" class="item-dialog">
+    <button class="close" aria-label="Bezárás">×</button>
+    <div class="dialog-grid">
+      <img src="assets/images/tudela-001.png" alt="TUDELA-001 rajz" />
+      <div>
+        <div class="idline">TUDELA-001</div>
+        <h2>Szent Márton megosztja köpenyét</h2>
+        <dl>
+          <dt>Helyszín</dt><dd>Tudelai székesegyház, Navarra</dd>
+          <dt>Objektum</dt><dd>Déli kerengő, figurális oszlopfő</dd>
+          <dt>Datálás</dt><dd>A kerengő kb. 1180–1204</dd>
+          <dt>Téma</dt><dd>Szent Márton és a koldus</dd>
+        </dl>
+        <p><strong>Leírás.</strong> Márton lóháton ülve kettéosztja katonai köpenyét, és annak egyik felét a koldusnak adja.</p>
+        <p><strong>Ikonográfia.</strong> Az irgalmasság klasszikus középkori képtípusa, amely az amiens-i legendához kapcsolódik.</p>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

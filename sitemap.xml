@@ -3,25 +3,37 @@
   <url>
     <loc>https://tornyait-hue.github.io/romankori-katalogus/</loc>
     <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://tornyait-hue.github.io/romankori-katalogus/elne.html</loc>
     <lastmod>2026-10-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tornyait-hue.github.io/romankori-katalogus/issoire.html</loc>
     <lastmod>2026-10-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tornyait-hue.github.io/romankori-katalogus/tudela.html</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://tornyait-hue.github.io/romankori-katalogus/mondonedo.html</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://tornyait-hue.github.io/romankori-katalogus/mollo.html</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://tornyait-hue.github.io/romankori-katalogus/toulouges.html</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://tornyait-hue.github.io/romankori-katalogus/cluny.html</loc>
+    <lastmod>2026-10-08</lastmod>
   </url>
   <url>
     <loc>https://tornyait-hue.github.io/romankori-katalogus/vendegkonyv.html</loc>
     <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>

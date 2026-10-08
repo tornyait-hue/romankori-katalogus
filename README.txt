@@ -1,6 +1,16 @@
-KŐBE FARAGOTT TÖRTÉNETEK – 2. BŐVÍTÉS (munkaváltozat)
+KŐBE FARAGOTT TÖRTÉNETEK — 4. BŐVÍTÉS
 
-Tartalom: 9 helyszín, 10 katalógustétel.
-A nyilvános oldalon csak saját/AI-rajzokat használunk; az új tételeknél a „Rajz készül” helyőrző marad mindaddig, amíg a rajz elkészül.
+Új elem: Vendégkönyv (vendegkonyv.html)
 
-Feltöltés GitHub Pages-re: index.html, styles.css, app.js és az images mappa kerüljön a repository gyökerébe.
+A vendégkönyv az Utterances GitHub App segítségével működik. A hozzászólások a tornyait-hue/romankori-katalogus repository GitHub Issues rendszerében tárolódnak.
+
+Aktiválás:
+1. Telepítse az Utterances GitHub Appot a repositoryhoz: https://github.com/apps/utterances
+2. Engedélyezze a tornyait-hue/romankori-katalogus repositoryt.
+3. A vendegkonyv.html már előre be van állítva erre a repositoryra.
+4. Az első hozzászóláskor automatikusan létrejön a vendégkönyvhöz tartozó issue.
+
+Megjegyzés:
+- bejegyzéshez GitHub-fiók szükséges;
+- a hozzászólások nyilvánosak;
+- a vendégkönyv tartalma nem válik automatikusan a katalógus részévé.
